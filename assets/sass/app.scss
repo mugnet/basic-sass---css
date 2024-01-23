@@ -1,0 +1,40 @@
+$forecolor: #ffffff;
+$backcolor: #837e7e;
+$bodycolor: red;
+body {
+    background-color: $bodycolor;
+
+   &.jj{
+    h1 {}
+
+    main {
+        p {
+            font-size: 40pt;
+            font-weight: bold;
+        }
+
+        section {
+            .hero {
+                height: 100px;
+                width: 100%;
+                background-color: pink;
+            }
+        }
+
+    }
+
+    .btn{
+        &-primary{
+            font-size: 40pt;
+            color: $forecolor;
+        }
+        &-success{
+            font-size: 1em;
+        }
+        &-secondary{
+            font-size: larger;
+        }
+    }
+
+   }
+}
